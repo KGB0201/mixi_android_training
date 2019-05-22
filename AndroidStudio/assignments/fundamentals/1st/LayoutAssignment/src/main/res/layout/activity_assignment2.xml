@@ -5,7 +5,7 @@
     tools:context=".Assignment2Activity" >
 
     <!-- このLinearLayoutをRelativeLayoutに変更して同じレイアウトを実現してください -->
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffc356"
@@ -37,5 +37,5 @@
                 android:layout_weight="1"
                 android:background="#ffedc6" />
         </LinearLayout>
-    </LinearLayout>
+    </RelativeLayout>
 </FrameLayout>
